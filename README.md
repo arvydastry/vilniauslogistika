@@ -4,6 +4,7 @@ Naujos **logistik.lt** svetainės demonstracinis pradžios puslapis. Visas dabar
 
 ## Peržiūra
 
+- **Gyva versija:** <https://arvydastry.github.io/vilniauslogistika/> (GitHub Pages iš saugyklos <https://github.com/arvydastry/vilniauslogistika> `main` šakos šaknies; failas `.nojekyll` išjungia Jekyll). Atnaujinimas: `git add -A && git commit -m "..." && git push`, Pages persigeneruoja per ~1 min.
 - `python3 serve.py` ir atverti <http://localhost:8150/> (`.claude/launch.json` konfigūracija „logistik“). Galima atidaryti ir tiesiog `index.html`, tik tada neveiks žemėlapis.
 - `?static=1` prie adreso išjungia visus judesio efektus (patogu ekrano nuotraukoms).
 - Puslapis turi `noindex, nofollow`. Užklausos forma demonstracinė: tikrina laukus, bet duomenų niekur nesiunčia.
